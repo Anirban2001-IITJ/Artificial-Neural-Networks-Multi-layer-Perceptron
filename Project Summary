@@ -1,0 +1,7 @@
+Brief: Artificial Neural Network (Multi-layer Perceptron)
+This project demonstrates the implementation and evaluation of a Multi-layer Perceptron (MLP) using Keras and TensorFlow on the classic handwritten digit recognition dataset, MNIST. The objective is to build an artificial neural network capable of classifying 28x28 pixel grayscale images into one of 10 digit classes (0-9).
+The process begins with loading and preprocessing the MNIST dataset, including reshaping and normalizing the input data and one-hot encoding the target labels. A simple MLP architecture is designed with an input layer, one hidden dense layer using ReLU activation, and an output layer using softmax activation for multi-class classification.
+The model is compiled with categorical cross-entropy loss, the Adam optimizer, and accuracy as the evaluation metric. It is then trained over 10 epochs with a batch size of 128. The model’s performance is assessed using the test dataset, showing the training and validation accuracy and loss trends.
+The results indicate that the MLP achieves high classification accuracy, demonstrating the effectiveness of neural networks in pattern recognition tasks. Visualizations of the training history help in evaluating the convergence and potential overfitting.
+Overall, this project provides a foundational understanding of implementing artificial neural networks for image classification and highlights the significance of proper data preprocessing, model architecture, and evaluation techniques in deep learning.
+
